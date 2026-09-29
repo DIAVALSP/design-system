@@ -3,10 +3,10 @@
  * CSS custom properties como objeto JS/TS para uso em estilos inline ou temas.
  *
  * USO PRINCIPAL: Recharts e outras libs que exigem hex literal (não aceita CSS vars).
- * Para CSS, importar `@jeffersonvianna-dev/design-system/css`.
+ * Para CSS, importar `@diavalsp/design-system/css`.
  *
  * Exemplo:
- *   import { tokens } from '@jeffersonvianna-dev/design-system'
+ *   import { tokens } from '@diavalsp/design-system'
  *   <XAxis tick={{ fill: tokens.colors.chartTick }} />
  */
 export const tokens = {

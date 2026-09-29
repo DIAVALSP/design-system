@@ -1,7 +1,7 @@
 # Design System — Contexto para Claude
 
 ## O que é
-Pacote npm `@jeffersonvianna-dev/design-system` publicado no **GitHub Packages**.
+Pacote npm `@diavalsp/design-system` publicado no **GitHub Packages**. Desde 29/09/2026 o repositório e o pacote são da organização `diavalsp` (antes `@jeffersonvianna-dev`, até a 0.2.1).
 Consumido por todos os projetos React da Cactus Tech / SEDUC SP.
 
 ## Estrutura
@@ -51,12 +51,12 @@ npm publish
 ## Como consumir em projetos React
 1. Adicionar `.npmrc`:
    ```
-   @jeffersonvianna-dev:registry=https://npm.pkg.github.com
+   @diavalsp:registry=https://npm.pkg.github.com
    //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
    ```
-2. `npm install @jeffersonvianna-dev/design-system`
-3. Em `main.tsx`: `import '@jeffersonvianna-dev/design-system/css'` (inclui tokens + componentes)
-4. Usar componentes: `import { Button, Badge } from '@jeffersonvianna-dev/design-system'`
+2. `npm install @diavalsp/design-system`
+3. Em `main.tsx`: `import '@diavalsp/design-system/css'` (inclui tokens + componentes)
+4. Usar componentes: `import { Button, Badge } from '@diavalsp/design-system'`
 
 ## index.html
 Showcase visual — referência de todos os componentes e tokens.

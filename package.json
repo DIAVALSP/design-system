@@ -1,6 +1,6 @@
 {
-  "name": "@jeffersonvianna-dev/design-system",
-  "version": "0.2.1",
+  "name": "@diavalsp/design-system",
+  "version": "0.3.0",
   "description": "Design System — Cactus Tech / SEDUC SP",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -39,6 +39,7 @@
     "vite": "^6.0.0",
     "vite-plugin-dts": "^4.0.0"
   },
+  "repository": { "type": "git", "url": "https://github.com/diavalsp/design-system.git" },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   }
